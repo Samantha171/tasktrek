@@ -1,24 +1,31 @@
-TaskTrek - Task Scheduling System
+##TaskTrek - Task Scheduling System
+
+### Team Members
+- **SAMANTHA W** (23PW25)
+- **SHREE SINDHIYA HARSHINI K** (23PW28)
+
+
+## Overview
 TaskTrek is a simple terminal-based task scheduling and prioritization system implemented in C. It uses a priority queue to manage and organize tasks by importance, and includes support for file-based saving and loading of tasks.
 
-Features:
-✅ Add tasks with a priority
-🧠 Automatically handles priority-based ordering
-🔄 Execute (remove) the highest priority task
-📋 Display all current tasks
-💾 Save tasks to a file
-📂 Load tasks from a file
-🧹 Priority 1 tasks are treated as most urgent and handled separately
+## Features:
+--✅ Add tasks with a priority
+--🧠 Automatically handles priority-based ordering
+--🔄 Execute (remove) the highest priority task
+--📋 Display all current tasks
+--💾 Save tasks to a file
+--📂 Load tasks from a file
+--🧹 Priority 1 tasks are treated as most urgent and handled separately
 
-Compilation:
+## Compilation:
 To compile the program, use gcc:
   gcc tasktrek.c -o tasktrek
 
-Usage:
+## Usage:
 Run the program using:
   ./tasktrek
 
-Menu Options:
+## Menu Options:
 Add a task – Input task name and priority (lower number = higher priority).
 Task to be done – Removes and displays the highest-priority task.
 Display all tasks – Shows the full to-do list with priorities.
@@ -26,11 +33,11 @@ Save tasks to file – Saves current tasks to a file named tasks.
 Load tasks from file – Loads tasks from the tasks file.
 Exit – Quits the program.
 
-Task Priority Rules:
+## Task Priority Rules:
 Priority 1 is considered most urgent and always moved to the front of the queue.
 Other tasks follow a max-heap behavior (higher number = higher priority).
 
-File Format:
+## File Format:
 Tasks are saved in the tasks file in the following format:
   TaskName1 2
   TaskName2 1
@@ -38,7 +45,7 @@ Tasks are saved in the tasks file in the following format:
   
 Each line contains a task name and its priority, separated by a space.
 
-Example:
+## Example:
 Welcome to Task Scheduling System!
 
 Task Scheduling Menu:
