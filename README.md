@@ -65,6 +65,19 @@ Task Scheduling Menu:
 6. Exit
 Enter your choice:
 ```
+## Demo:
+
+### 🔸 Program Start
+![Program Start](screenshots/start.png)
+
+### 🔸 Adding a Task
+![Add Task](screenshots/add_task.png)
+
+### 🔸 Viewing All Tasks
+![All Tasks](screenshots/display_tasks.png)
+
+### 🔸 Executing a Task
+![Execute Task](screenshots/execute_task.png)
 
 ---
 
