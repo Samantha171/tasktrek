@@ -1,4 +1,4 @@
-##TaskTrek - Task Scheduling System
+# TaskTrek - Task Scheduling System
 
 ### Team Members
 - **SAMANTHA W** (23PW25)
