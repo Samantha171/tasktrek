@@ -9,17 +9,18 @@
 TaskTrek is a simple terminal-based task scheduling and prioritization system implemented in C. It uses a priority queue to manage and organize tasks by importance, and includes support for file-based saving and loading of tasks.
 
 ## Features:
---✅ Add tasks with a priority
---🧠 Automatically handles priority-based ordering
---🔄 Execute (remove) the highest priority task
---📋 Display all current tasks
---💾 Save tasks to a file
---📂 Load tasks from a file
---🧹 Priority 1 tasks are treated as most urgent and handled separately
+- ✅ Add tasks with a priority
+- 🧠 Automatically handles priority-based ordering
+- 🔄 Execute (remove) the highest priority task
+- 📋 Display all current tasks
+- 💾 Save tasks to a file
+- 📂 Load tasks from a file
+- 🧹 Priority 1 tasks are treated as most urgent and handled separately
 
 ## Compilation:
-To compile the program, use gcc:
-  gcc tasktrek.c -o tasktrek
+To compile the program, use gcc:  
+```bash
+gcc tasktrek.c -o tasktrek
 
 ## Usage:
 Run the program using:
